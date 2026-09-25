@@ -1,0 +1,24 @@
+body {
+    font-family: papyrus, Arial, Helvetica, sans-serif;
+    background-color: papayawhip;
+    max-width: 800px;
+    color: green;
+    margin: auto;
+}
+p {
+    text-align: justify;
+    color: black;
+    font-size: 14px;
+}
+h1 {
+    color: rgb(33, 101, 160);
+    text-align: center;
+
+}
+img {
+    float: right;
+    margin: 10px;
+    border-radius: 25px;
+    padding: 12px;
+    border: 5px purple solid;
+}
