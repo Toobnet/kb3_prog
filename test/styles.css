@@ -1,0 +1,20 @@
+body {
+    background-color: peru;
+    margin: auto;
+    max-width: 800px;
+    font-family: papyrus;
+}
+
+h1 {
+    color: azure;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p {
+    text-align: justify;
+}
+img {
+    float: right;
+    width: 250px;
+    margin: 10px;
+}
