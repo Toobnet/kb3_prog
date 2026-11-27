@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <P id="vystup"></P>
+    <script>
+        let cislo1 = Number(prompt("Zadej mi pomolěr kruhu: "));
+        let cislo2 = Number(prompt("Zadej mi druhe cislo: "));
+        let pi = 3.14;
+        let polomer = cislo1 * cislo2;
+
+        let obsah = cislo1 * pi;
+
+        document.getElementById("vystup").innerHTML
+         ="obsah kruhu je: " + obsah;
+    </script>
+</body>
+</html>
